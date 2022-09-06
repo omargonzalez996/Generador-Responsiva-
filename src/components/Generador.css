@@ -1,0 +1,75 @@
+#contenedor-input-pdf {
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  max-width: 360px;
+  padding: 45px;
+  height: 500px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#btn-limpiar {
+  position: relative;
+  top: 10px;
+  width: 50px;
+  height: 50px;
+  z-index: 1001;
+  margin-right: 10px;
+  background-color: blue;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  transition: 0.5s ease;
+}
+#btn-limpiar:hover {
+  background-color: darkmagenta;
+}
+#icono-btn-limpiar {
+  filter: invert();
+  position: relative;
+  right: 10px;
+  width: 30px;
+}
+#formulario {
+  margin-top: 40px;
+}
+#titulo_modal {
+  color: #264653;
+  font-size: 25px;
+}
+.input-pdf {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  height: 40px;
+  margin: 0 0 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+}
+#boton-pdf {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #f4a261;
+  width: 70%;
+  border: 0;
+  padding: 15px;
+  color: #ffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#boton-pdf:hover {
+  transition: 0.3s ease;
+  background-color: #e76f51;
+}
